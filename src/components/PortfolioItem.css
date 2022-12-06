@@ -1,0 +1,14 @@
+.portfolio-card {
+    width: 18rem;
+    margin-bottom: 1.5rem;
+}
+.portfolio-card:hover {
+    box-shadow: 5px 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-img-standard {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
