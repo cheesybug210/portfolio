@@ -17,11 +17,8 @@ function App () {
     <div className="App">
       <NavBar />
 
-      {/* <Home /> */}
-
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route path="/messages" element={Messages} /> */}
         <Route path="/about" element={<AboutPage />} />
       </Routes>
     </div>

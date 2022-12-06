@@ -3,19 +3,22 @@
     "caption": "Chocolate Chip Cookies",
     "description": "Four classic chocolate chip cookies",
     "image": "images/cookies.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies"
+    "longDescription": "More than just four classic chocolate chip cookies",
+    "path": "cookies"
   },
   {
     "caption": "Cannoli",
     "description": "Fried pastry dough stuffed with a sweet, creamy cheese filling",
     "image": "images/cannoli.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies"
+    "longDescription": "More than just four classic chocolate chip cookies",
+    "path": "cannoli"
   },
   {
     "caption": "Apple Pie",
     "description": "A delicious slice of apple pie",
     "image": "images/apple-pie.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies"
+    "longDescription": "More than just four classic chocolate chip cookies",
+    "path": "pie"
   },
   {
     "caption": "Meringue-Topped Pecan Custard Pie",

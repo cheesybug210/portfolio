@@ -21,3 +21,8 @@
     height: 15rem;
     object-fit: cover;
 }
+
+.portfolio-item-link, .portfolio-item-link:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
