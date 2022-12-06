@@ -2,30 +2,26 @@
   {
     "caption": "Chocolate Chip Cookies",
     "description": "Four classic chocolate chip cookies",
-    "image": "images/cookies.jpg"
+    "image": "images/cookies.jpg",
+    "longDescription": "More than just four classic chocolate chip cookies"
   },
   {
     "caption": "Cannoli",
     "description": "Fried pastry dough stuffed with a sweet, creamy cheese filling",
-    "image": "images/cannoli.jpg"
+    "image": "images/cannoli.jpg",
+    "longDescription": "More than just four classic chocolate chip cookies"
   },
   {
     "caption": "Apple Pie",
     "description": "A delicious slice of apple pie",
-    "image": "images/apple-pie.jpg"
+    "image": "images/apple-pie.jpg",
+    "longDescription": "More than just four classic chocolate chip cookies"
   },
   {
     "caption": "Meringue-Topped Pecan Custard Pie",
     "description": "A slice of pecan-flavoured custard pie, topped with meringue ",
-    "price": 5.99,
     "image": "images/custard-pie.jpg",
-    "categories": {
-      "allergens": [
-        "dairy-free"
-      ],
-      "type": "sweet"
-    },
-    "calories": 250
+    "longDescription": "More than just four classic chocolate chip cookies"
   },
   {
     "caption": "Fudge Nut Brownies",
