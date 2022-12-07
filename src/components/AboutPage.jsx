@@ -6,13 +6,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import "./AboutPage.css";
+import cheesyBug from "../assets/images/cheesybug.jpg";
 
 export default function AboutPage() {
     return (
         <Container className="about-page">
             <Row>
                 <Col className="about-page-image">
-                    <Image className="about-page-image" src="../../public/images/apple-pie.jpg" roundedCircle />
+                    <Image className="about-page-image" src={cheesyBug} />
+                    {/* <img src="../assets/images/apple-pie.jpg" alt="Image created with a mobile phone" />  */}
                 </Col>
                 <Col className="about-page-content">
                     <h1>About Me</h1>

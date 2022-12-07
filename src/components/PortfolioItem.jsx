@@ -11,7 +11,7 @@ export default function PortfolioItem (props) {
     return (
         //   <div className="portfolio-item">
         // originally 0.43
-        <Link className="portfolio-item-link" to={props.link ?? "/about"}>
+        <Link className="portfolio-item-link" to={props.path ?? "/portfolio"}>
             <Card className="portfolio-card" style={{ "backgroundImage": `linear-gradient(180deg, hsla(0, 0%, 100%, 0.93) 7%, transparent 34%), url(${props.image})` }}>
                 {/* <Card.Img variant="top" className="card-img-standard" src={props.image} alt={props.caption} /> */}
                 <Card.Body variant="bottom">

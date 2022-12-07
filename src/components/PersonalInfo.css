@@ -14,8 +14,59 @@
 } */
 
 .personal-info {
-    font-family: 'Montserrat', sans-serif;
     /* font-weight: 300;
     font-size: 1.5rem;
     color: #000; */
+    margin-bottom: 3rem;
+    /* display: flex; */
+    /* height: 15rem; */
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 10rem;
+}
+
+.info-left {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    /* width: 100%;
+    height: 100%; */
+    padding: 0 1rem;
+    background: #fff;
+    /* border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+    transition: all 0.2s ease-in-out;
+    /* align-self: center; */
+    align-items: baseline;
+}
+
+.info-right {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 100%;
+    height: 100%; */
+    padding: 0 1rem;
+    padding-top: 4rem;
+    background: #fff;
+    /* border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+    transition: all 0.2s ease-in-out;
+    align-items: baseline;
+    text-align: left;
+    hyphens: auto;
 }
