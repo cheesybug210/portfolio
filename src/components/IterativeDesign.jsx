@@ -20,20 +20,20 @@ export default function IterativeDesign () {
     return <div>
         <h1>Iterative Design</h1>
         <div id="nav">
-            <nav class="navbar navbar-expand-sm navbar-dark center m-3">
-                <div class="container-fluid">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#initial-wireframing">Initial Wireframing</a>
+            <nav className="navbar navbar-expand-sm navbar-dark center m-3">
+                <div className="container-fluid">
+                    <ul className="navbar-nav mx-auto">
+                        <li className="nav-item">
+                            <a className="nav-link active" href="#initial-wireframing">Initial Wireframing</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#lofi-prototype">LoFi Prototype</a>
+                        <li className="nav-item">
+                            <a className="nav-link active" href="#lofi-prototype">LoFi Prototype</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#mockup">Mockup</a>
+                        <li className="nav-item">
+                            <a className="nav-link active" href="#mockup">Mockup</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#user-testing">User Testing</a>
+                        <li className="nav-item">
+                            <a className="nav-link active" href="#user-testing">User Testing</a>
                         </li>
                     </ul>
                 </div>
@@ -54,49 +54,49 @@ export default function IterativeDesign () {
         <div id="initial-wireframing">
             <h2>Initial Wireframing</h2>
 
-            <div class="sketch-a">
+            <div className="sketch-a">
                 <h3>Sketch One</h3>
-                <div class="row">
+                <div className="row">
                     <img src={a3} />
                     <img src={a1} />
                 </div>
-                <div class="row">
+                <div className="row">
                     <img src={a2} />
                     <img src={a4} />
                 </div>
             </div>
 
-            <div class="sketch-b">
+            <div className="sketch-b">
                 <h3>Sketch Two</h3>
-                <div class="row">
+                <div className="row">
                     <img src={b1} />
                     <img src={b2} />
                 </div>
-                <div class="row">
+                <div className="row">
                     <img src={b3} />
                     <img src={b4} />
                 </div>
             </div>
 
-            <div class="sketch-a">
+            <div className="sketch-a">
                 <h3>Sketch Three</h3>
-                <div class="row">
+                <div className="row">
                     <img src={c2} />
                     <img src={c1} />
                 </div>
-                <div class="row">
+                <div className="row">
                     <img src={c3} />
                     <img src={c4} />
                 </div>
             </div>
 
-            <div class="sketch-b">
+            <div className="sketch-b">
                 <h3>Sketch Four</h3>
-                <div class="row">
+                <div className="row">
                     <img src={d2} />
                     <img src={d1} />
                 </div>
-                <div class="row">
+                <div className="row">
                     <img src={d3} />
                     <img src={d4} />
                 </div>
@@ -134,7 +134,7 @@ export default function IterativeDesign () {
 
                     <h3>Critique Feedback</h3>
                     <p>The feedback we obtained was very useful in determining how the prototype could be improved. We received feedback on the following aspects of the prototype:
-                        <ol class="list">
+                        <ol className="list">
                             <li><b>The notch at the top of the laptop in the prototype would cover a portion of the header.</b> To address this, we increased the padding at the top of the navbar.</li>
                             <li><b>The order boxes in the Past Orders page had a plus icon on it, which users were confused about.</b> We removed the plus icon.</li>
                             <li><b>In the Checkout page, people were unsure about whether the prices displayed for an product were per item or overall.</b> We added this column to our cart page to make this clearer.</li>
@@ -152,11 +152,11 @@ export default function IterativeDesign () {
 
                 <div id="user-videos">
                     <h3>User One</h3>
-                    <iframe src="https://drive.google.com/file/d/1UgUSeOk2O_nyTf_D7RNnzAAx1wtDB8BV/preview" class="video-embed" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1UgUSeOk2O_nyTf_D7RNnzAAx1wtDB8BV/preview" className="video-embed" allow="autoplay"></iframe>
                     <h3>User Two</h3>
-                    <iframe src="https://drive.google.com/file/d/1hpDLAQZhaFAMbaW_-RPzw5GSXkuKpb2v/preview" class="video-embed" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1hpDLAQZhaFAMbaW_-RPzw5GSXkuKpb2v/preview" className="video-embed" allow="autoplay"></iframe>
                     <h3>User Three</h3>
-                    <iframe src="https://drive.google.com/file/d/1Xj0Fgm-vtesCgDmopJEuDUB0ZVi_DZ3Q/preview" class="video-embed" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1Xj0Fgm-vtesCgDmopJEuDUB0ZVi_DZ3Q/preview" className="video-embed" allow="autoplay"></iframe>
                 </div>
 
                 <h3 id="testing-analysis">User Testing Analysis</h3>

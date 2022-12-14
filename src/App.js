@@ -23,11 +23,19 @@ function App () {
     // </div>;
   }
 
-  const pageMap = {
-    "personas": <Personas />,
-    "iterative-design": <IterativeDesign />,
-    "responsive-redesign": <ResponsiveRedesign />,
-    "development": <Development />,
+  const getComponent = (path, image) => {
+    switch (path) {
+      case "personas":
+        return <Personas path={image} />
+      case "iterative-design":
+        return <IterativeDesign />
+      case "responsive-redesign":
+        return <ResponsiveRedesign />
+      case "development":
+        return <Development />
+      default:
+        return <Home />
+    }
   }
 
   return (
@@ -36,9 +44,9 @@ function App () {
 
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/portfolio" element={<Home />} />
+        <Route exact path="/portfolio/" element={<Home />} />
           {/* <Route path="about" element={<AboutPage />} /> */}
-          {portfolioData.map(project => <Route path={`/portfolio/${project.path}`} element={pageMap[project.path]} />)}
+          {portfolioData.map(project => <Route path={`/portfolio/${project.path}`} element={getComponent(project.path, project.image)} />)}
         {/* </Route> */}
         <Route path="/portfolio/about" element={<AboutPage />} />
       </Routes>

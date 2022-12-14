@@ -18,10 +18,10 @@ import vd from '../assets/images/responsive-redesign/vd.jpg';
 
 export default function ResponsiveRedesign () {
     return <main id="main">
-        <section class="section">
-            <div class="container">
-                <div class="row mb-3 align-items-center">
-                    <div class="col-md-10" data-aos="fade-up">
+        <section className="section">
+            <div className="container">
+                <div className="row mb-3 align-items-center">
+                    <div className="col-md-10" data-aos="fade-up">
                         <h1>Responsive Redesign: Pawtucket Government Website</h1>
                         <p>An analysis of the Pawtucket government website and a proposed responsive redesign addressing issues
                             found.</p>
@@ -29,46 +29,46 @@ export default function ResponsiveRedesign () {
                 </div>
             </div>
 
-            <div class="site-section pb-0">
-                <div class="container">
-                    <div class="row align-items-stretch">
-                        <div class="col" data-aos="fade-up" data-aos-delay="100">
-                            <h2 class="h2">Current Website</h2>
-                            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src={w1} class="w-100" alt="..." />
+            <div className="site-section pb-0">
+                <div className="container">
+                    <div className="row align-items-stretch">
+                        <div className="col" data-aos="fade-up" data-aos-delay="100">
+                            <h2 className="h2">Current Website</h2>
+                            <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img src={w1} className="w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item">
+                                    <div className="carousel-item">
 
-                                        <div class="col">
-                                            <img src={w2} class="w-100" alt="..." />
+                                        <div className="col">
+                                            <img src={w2} className="w-100" alt="..." />
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={w3} class="w-100" alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={w3} className="w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={w4} class="w-100" alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={w4} className="w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={w5} class="w-100" alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={w5} className="w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={w6} class="w-100" alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={w6} className="w-100" alt="..." />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                                    <i class="fa-solid fa-angle-left fa-lg left-angle"></i>
-                                    <span class="visually-hidden">Previous</span>
+                                <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                    <i className="fa-solid fa-angle-left fa-lg left-angle"></i>
+                                    <span className="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                                    <i class="fa-solid fa-angle-right fa-lg right-angle"></i>
-                                    <span class="visually-hidden">Next</span>
+                                <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                    <i className="fa-solid fa-angle-right fa-lg right-angle"></i>
+                                    <span className="visually-hidden">Next</span>
                                 </button>
 
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                                <div className="carousel-indicators">
+                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active"
                                         aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -77,7 +77,7 @@ export default function ResponsiveRedesign () {
                                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
                                 </div>
                             </div>
-                            <div class="website-link">
+                            <div className="website-link">
                                 <a href="https://pawtucketri.com/">https://pawtucketri.com/</a>
                             </div>
                             The Pawtucket government website is a good example of website that, while responsive, has several
@@ -89,13 +89,13 @@ export default function ResponsiveRedesign () {
 
                     <br />
 
-                    <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-                        <div class="sticky-content">
-                            <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-                                <h2 class="h2">Problems</h2>
-                                <h3 class="h3">Usability</h3>
-                                <div class="mb-3">
-                                    <ul class="list-unstyled list-line mb-3">
+                    <div className="col ml-auto" data-aos="fade-up" data-aos-delay="100">
+                        <div className="sticky-content">
+                            <div className="col ml-auto" data-aos="fade-up" data-aos-delay="100">
+                                <h2 className="h2">Problems</h2>
+                                <h3 className="h3">Usability</h3>
+                                <div className="mb-3">
+                                    <ul className="list-unstyled list-line mb-3">
                                         <li>The "Follow us on ..." social media banner has no links to any social media, which are also not
                                             present anywhere else on the page.</li>
                                         <li>The carousel has no signs to indicate that it is a carousel (like arrows or the selector at the
@@ -112,7 +112,7 @@ export default function ResponsiveRedesign () {
                                             hierarchy.</li>
                                         <li>Font sizes do not adjust on resizing, making it difficult to read on smaller screens.</li>
                                         <li>Efficiency is a problem:
-                                            <ul class="list-unstyled list-line mb-3">
+                                            <ul className="list-unstyled list-line mb-3">
                                                 <li>Something simple and commonly used like "Report a problem" requires scrolling all the way to
                                                     the bottom of the page to do.</li>
                                                 <li>Other frequent actions (like "Email Log In") are also present at the bottom, increasing the
@@ -124,10 +124,10 @@ export default function ResponsiveRedesign () {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-                                <h3 class="h3">Learnability</h3>
-                                <div class="mb-3">
-                                    <ul class="list-unstyled list-line mb-3">
+                            <div className="col ml-auto" data-aos="fade-up" data-aos-delay="100">
+                                <h3 className="h3">Learnability</h3>
+                                <div className="mb-3">
+                                    <ul className="list-unstyled list-line mb-3">
                                         <li>Some items may take a little time to get used to, like the carousel at the beginning</li>
                                         <li>Some commonly used items (like "Report a Problem") may not be in a location people expect due to
                                             their popularity, but for specific tasks, it should be easy to remember where they are.</li>
@@ -136,10 +136,10 @@ export default function ResponsiveRedesign () {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-                                <h3 class="h3">Memorability</h3>
-                                <div class="mb-3">
-                                    <ul class="list-unstyled list-line mb-3">
+                            <div className="col ml-auto" data-aos="fade-up" data-aos-delay="100">
+                                <h3 className="h3">Memorability</h3>
+                                <div className="mb-3">
+                                    <ul className="list-unstyled list-line mb-3">
                                         <li>Some things (though inefficient) are easy to remember: e.g. it would be easy to remember to
                                             scroll to the bottom each time you needed to report a problem..</li>
                                         <li>Other things are harder to remember: e.g. a user may not remember that they need to scroll
@@ -149,10 +149,10 @@ export default function ResponsiveRedesign () {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-                                <h3 class="h3">Accessibility</h3>
-                                <div class="mb-3">
-                                    <ul class="list-unstyled list-line mb-3">
+                            <div className="col ml-auto" data-aos="fade-up" data-aos-delay="100">
+                                <h3 className="h3">Accessibility</h3>
+                                <div className="mb-3">
+                                    <ul className="list-unstyled list-line mb-3">
                                         <li>The most common accessibility issue is contrast: WebAIM WAVE detected 46 "Very low contrast
                                             errors". This is because the website often pairs light font colours (like a light orangish-red)
                                             with light background colours (like light grey), making it difficult to read parts of the page.
@@ -169,70 +169,70 @@ export default function ResponsiveRedesign () {
                                 </div>
                             </div>
 
-                            <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-                                <h2 class="h2">Redesign</h2>
-                                <h3 class="h3">Visual design style guide</h3>
-                                <div class="mb-3">
-                                    <img src={vd} class="w-100" alt="..." />
+                            <div className="col ml-auto" data-aos="fade-up" data-aos-delay="100">
+                                <h2 className="h2">Redesign</h2>
+                                <h3 className="h3">Visual design style guide</h3>
+                                <div className="mb-3">
+                                    <img src={vd} className="w-100" alt="..." />
                                 </div>
 
-                                <h3 class="h3">Lofi prototype</h3>
-                                <div class="mb-3">
-                                    <h4 class="h4">Desktop</h4>
-                                    <img src={lfd} class="mw-100" alt="..." />
+                                <h3 className="h3">Lofi prototype</h3>
+                                <div className="mb-3">
+                                    <h4 className="h4">Desktop</h4>
+                                    <img src={lfd} className="mw-100" alt="..." />
                                 </div>
-                                <div class="mb-3">
-                                    <h4 class="h4">Tablet</h4>
-                                    <img src={lft} class="mw-100" alt="..." />
+                                <div className="mb-3">
+                                    <h4 className="h4">Tablet</h4>
+                                    <img src={lft} className="mw-100" alt="..." />
                                 </div>
-                                <div class="mb-3">
-                                    <h4 class="h4">Mobile</h4>
-                                    <img src={lfm} class="mw-100" alt="..." />
+                                <div className="mb-3">
+                                    <h4 className="h4">Mobile</h4>
+                                    <img src={lfm} className="mw-100" alt="..." />
                                 </div>
-                                <h3 class="h3">Hifi prototype</h3>
-                                <div class="mb-3">
-                                    <h4 class="h4">Desktop</h4>
-                                    <img src={hfd} class="mw-100" alt="..." />
+                                <h3 className="h3">Hifi prototype</h3>
+                                <div className="mb-3">
+                                    <h4 className="h4">Desktop</h4>
+                                    <img src={hfd} className="mw-100" alt="..." />
                                 </div>
-                                <div class="mb-3">
-                                    <h4 class="h4">Tablet</h4>
-                                    <img src={hft} class="mw-100" alt="..." />
+                                <div className="mb-3">
+                                    <h4 className="h4">Tablet</h4>
+                                    <img src={hft} className="mw-100" alt="..." />
                                 </div>
-                                <div class="mb-3">
-                                    <h4 class="h4">Mobile</h4>
-                                    <img src={hfm} class="mw-100" alt="..." />
+                                <div className="mb-3">
+                                    <h4 className="h4">Mobile</h4>
+                                    <img src={hfm} className="mw-100" alt="..." />
                                 </div>
-                                <h3 class="h3">Redesigned website</h3>
-                                <div class="mb-3">
-                                    <div id="myCarousel2" class="carousel slide" data-bs-ride="carousel">
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img src={n1} class="w-100" alt="..." />
+                                <h3 className="h3">Redesigned website</h3>
+                                <div className="mb-3">
+                                    <div id="myCarousel2" className="carousel slide" data-bs-ride="carousel">
+                                        <div className="carousel-inner">
+                                            <div className="carousel-item active">
+                                                <img src={n1} className="w-100" alt="..." />
                                             </div>
-                                            <div class="carousel-item">
-                                                <img src={n2} class="w-100" alt="..." />
+                                            <div className="carousel-item">
+                                                <img src={n2} className="w-100" alt="..." />
                                             </div>
-                                            <div class="carousel-item">
-                                                <img src={n3} class="w-100" alt="..." />
+                                            <div className="carousel-item">
+                                                <img src={n3} className="w-100" alt="..." />
                                             </div>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
-                                            <i class="fa-solid fa-angle-left fa-lg left-angle"></i>
-                                            <span class="visually-hidden">Previous</span>
+                                        <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+                                            <i className="fa-solid fa-angle-left fa-lg left-angle"></i>
+                                            <span className="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
-                                            <i class="fa-solid fa-angle-right fa-lg right-angle"></i>
-                                            <span class="visually-hidden">Next</span>
+                                        <button className="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+                                            <i className="fa-solid fa-angle-right fa-lg right-angle"></i>
+                                            <span className="visually-hidden">Next</span>
                                         </button>
 
-                                        <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active" aria-current="true"
+                                        <div className="carousel-indicators">
+                                            <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" className="active" aria-current="true"
                                                 aria-label="Slide 1"></button>
                                             <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                             <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         </div>
                                     </div>
-                                    <div class="website-link">
+                                    <div className="website-link">
                                         <a href="https://cheesybug210.github.io/responsive-redesign-website">https://cheesybug210.github.io/responsive-redesign-website/</a>
                                     </div>
                                 </div>
