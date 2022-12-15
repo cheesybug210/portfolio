@@ -5,3 +5,11 @@
 .section {
     margin-bottom: 3rem;
 }
+
+.zoom-hover {
+    transition: all 0.4s ease-in-out;
+}
+
+.zoom-hover:hover {
+    transform: scale(2.5);
+}
