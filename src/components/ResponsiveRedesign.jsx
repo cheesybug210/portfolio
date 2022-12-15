@@ -75,6 +75,7 @@ export default function ResponsiveRedesign (props) {
         <hr />
         <Row className="section">
             <h2 className="montserrat">Problems</h2>
+            <h6 className="montserrat text-muted">Problems observed with the website, broken down into different categories</h6>
             <Col>
                 <h4 className="montserrat">Usability</h4>
                 <div className="open-sans">
@@ -157,8 +158,9 @@ export default function ResponsiveRedesign (props) {
         <hr />
         <Row className="section">
             <h2 className="montserrat">Redesign</h2>
+            <h6 className="montserrat text-muted">Revisiting the different stages of redesigning the website</h6>
             <div className="open-sans mb-3">
-                Redesigning the website involved several stages. The first was drafting low-fidelity protoypes for mobile, tablet and desktop. Once I had the lo-fi prototypes ready, I used them to create a visual design style guide to ensure consistency in design and execution. This was used to create he high-fidelity prototypes, which were subsequently used to make the website.
+                The first stage of redesigning the website was drafting low-fidelity protoypes for mobile, tablet and desktop. Once I had the lo-fi prototypes ready, I used them to create a visual design style guide to ensure consistency in design and execution. This was used to create he high-fidelity prototypes, which were subsequently used to make the website.
                 </div>
             <h4 className="montserrat">Lo-fi Prototypes</h4>
             <Col>
