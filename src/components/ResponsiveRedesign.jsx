@@ -68,35 +68,6 @@ export default function ResponsiveRedesign (props) {
 
                 </div>
             </Col>
-            {/* 
-            <Col>
-                <h2 className="montserrat">Redesigned Website</h2>
-                <Carousel variant="dark">
-                    <Carousel.Item>
-                        <img src={w1} className="w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={w2} className="w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={w3} className="w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={w4} className="w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={w5} className="w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={w6} className="w-100" alt="..." />
-                    </Carousel.Item>
-                </Carousel>
-                <div className="open-sans">
-                    <h6 className="montserrat text-muted mt-3 mb-0">Website</h6>
-                    <a href="https://pawtucketri.com/">https://pawtucketri.com/</a>
-
-                </div>
-            </Col> */}
         </Row>
         <Row className="section">
             <h2 className="montserrat">Problems</h2>
