@@ -244,7 +244,6 @@ export default function ResponsiveRedesign (props) {
             </Col>
             </Row>
     </Container>;
-
 }
 
 // export default function ResponsiveRedesign () {

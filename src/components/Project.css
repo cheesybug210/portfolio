@@ -13,3 +13,7 @@
 .zoom-hover:hover {
     transform: scale(2.5);
 }
+
+.figma-embed, .video-embed {
+    width: 100%;
+}
