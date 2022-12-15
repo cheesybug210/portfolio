@@ -28,11 +28,11 @@ function App () {
       case "personas":
         return <Personas path={image} />
       case "iterative-design":
-        return <IterativeDesign />
+        return <IterativeDesign path={image} />
       case "responsive-redesign":
-        return <ResponsiveRedesign />
+        return <ResponsiveRedesign path={image} />
       case "development":
-        return <Development />
+        return <Development path={image} />
       default:
         return <Home />
     }
