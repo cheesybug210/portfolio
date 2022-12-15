@@ -8,7 +8,7 @@ import w3 from '../assets/images/responsive-redesign/Website - 3.png';
 import w4 from '../assets/images/responsive-redesign/Website - 4.png';
 import w5 from '../assets/images/responsive-redesign/Website - 5.png';
 import w6 from '../assets/images/responsive-redesign/Website - 6.png';
-import bkg from '../assets/images/responsive-redesign/background.png';
+// import bkg from '../assets/images/responsive-redesign/background.png';
 import hfd from '../assets/images/responsive-redesign/hf-d.jpg';
 import hfm from '../assets/images/responsive-redesign/hf-m.jpg';
 import hft from '../assets/images/responsive-redesign/hf-t.jpg';

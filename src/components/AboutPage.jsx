@@ -1,6 +1,11 @@
 import {
-    Link
-} from "react-router-dom";
+    faGithub,
+    faLinkedin
+} from '@fortawesome/free-brands-svg-icons';
+
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -23,6 +28,18 @@ export default function AboutPage() {
                     <p>
                         I enjoy learning about new technologies and applying them to solve problems. I am passionate about creating user-friendly and intuitive applications.
                     </p>
+                    <div className="social-media">
+                        <a href="https://www.eelslap.com/">
+                            <FontAwesomeIcon icon={faLinkedin} size="xl" color="black" />
+                        </a>
+                        <a href="https://github.com/cheesybug210">
+                            <FontAwesomeIcon icon={faGithub} size="xl" color="black" />
+
+                        </a>
+                        <a href="https://www.docdroid.net/WyjIuyO/fake-resume-pdf">
+                            <FontAwesomeIcon icon={faFileAlt} size="xl" color="black" />
+                        </a>
+                    </div>
                 </Col>
             </Row>
         </Container>

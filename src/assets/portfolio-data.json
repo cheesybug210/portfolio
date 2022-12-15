@@ -1,30 +1,26 @@
 {
   "personas": {
     "caption": "Personas and Storyboarding",
-    "description": "Description of Personas",
-    "image": "images/cookies.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies",
+    "description": "Analysing user experiences with a public microwave",
+    "image": "images/microwave.jpg",
     "path": "personas"
   },
   "redesign": {
     "caption": "Responsive Redesign",
-    "description": "Description of Responsive Redesign",
-    "image": "images/cannoli.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies",
+    "description": "Redesigning the Pawtucket city website",
+    "image": "images/pawtucket.png",
     "path": "responsive-redesign"
   },
   "iterative": {
     "caption": "Iterative Design",
-    "description": "Description of Iterative Design",
-    "image": "images/apple-pie.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies",
+    "description": "Designing a website for Brazilian food supply startup Pantore",
+    "image": "images/pantore.png",
     "path": "iterative-design"
   },
   "development": {
     "caption": "Development",
-    "description": "A slice of pecan-flavoured custard pie, topped with meringue ",
-    "image": "images/custard-pie.jpg",
-    "longDescription": "More than just four classic chocolate chip cookies",
+    "description": "Creating a React-based bakery application",
+    "image": "images/development.jpg",
     "path": "development"
   }
 }

@@ -4,7 +4,7 @@ import "./ProjectTop.css";
 export default function ProjectTop (props) {
     return (
         <div>
-            <div className="header-image" style={{ "backgroundImage": `url(${props.path})` }} />
+            <div className="header-image" style={{ "backgroundImage": `url(${props.path})`, "backgroundPosition":`${props.bgPosition?.vertical ?? 50}% ${props.bgPosition?.horizontal ?? 50}%` }} />
             <Container className="top-container">
                 <Row className="title-row montserrat">
                     <h1 className="project-title">

@@ -18,6 +18,7 @@ export default function Personas (props) {
       role="UI/UX Analyst"
       tools="Balsamiq"
       timeline="2 weeks"
+      bgPosition={{"vertical":50, "horizontal":50}}
     />
     
     <Row className="section">
@@ -235,7 +236,7 @@ export default function Personas (props) {
     </Row>
     <Row className="section">
       <h2 className="montserrat">Storyboard</h2>
-      <h6 className="montserrat text-muted">A look at Traditional Tommy's experience using the microwav</h6>
+      <h6 className="montserrat text-muted">A look at Traditional Tommy's experience using the microwave</h6>
       <Image fluid={true} src={storyboard} />
     </Row>
   </Container>

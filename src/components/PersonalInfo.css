@@ -22,6 +22,15 @@
     /* height: 15rem; */
 }
 
+.sm-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* width: 10rem; */
+}
+
 .social-media {
     display: flex;
     flex-direction: row;

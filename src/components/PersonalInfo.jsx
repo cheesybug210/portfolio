@@ -25,9 +25,10 @@ export default function PersonalInfo (props) {
       {/* // </div>/// */}
       <div className="info-right">
 
-        <h3>I'm a senior at Brown University. Sometimes I write code.</h3>
+        <h3 className="mb-3">I'm a senior at Brown University. Sometimes I write code.</h3>
         {/* more description? */}
-        {/* <h5>Check out some of my work down below!</h5> */}
+        <div className="sm-container">
+        <h5 className="me-3">Get in touch →</h5>
         <div className="social-media">
           <a href="https://www.eelslap.com/">
             <FontAwesomeIcon icon={faLinkedin} size="xl" color="black" />
@@ -39,6 +40,8 @@ export default function PersonalInfo (props) {
           <a href="https://www.docdroid.net/WyjIuyO/fake-resume-pdf">
             <FontAwesomeIcon icon={faFileAlt} size="xl" color="black" />
           </a>
+        </div>
+
         </div>
       </div>
 
