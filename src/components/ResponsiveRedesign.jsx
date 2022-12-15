@@ -37,7 +37,10 @@ export default function ResponsiveRedesign (props) {
         <Row className="section">
             <h2 className="montserrat">Overview</h2>
             <div className="open-sans">The Pawtucket government website is a good example of website that, while responsive, has several usability, learnability, memorability, and accessibility issues. Since it is a government website and people just want to get information quickly, it wasn't able to serve its purpose effectively. Here, I analyse the problems with the website and put forward a potential redesign with a live demo.</div>
+        
+            <hr />
         </Row>
+
 
         <Row className="section">
             <Col>
@@ -69,6 +72,7 @@ export default function ResponsiveRedesign (props) {
                 </div>
             </Col>
         </Row>
+        <hr />
         <Row className="section">
             <h2 className="montserrat">Problems</h2>
             <Col>
@@ -104,14 +108,21 @@ export default function ResponsiveRedesign (props) {
                 </div>
             </Col>
             <Col>
-                <h4 className="montserrat">Learnability</h4>
+                <h4 className="montserrat">Accessibility</h4>
                 <div className="open-sans">
                     <ul className="list">
-                        <li>Some items may take a little time to get used to, like the carousel at the beginning</li>
-                        <li>Some commonly used items (like "Report a Problem") may not be in a location people expect due to
-                            their popularity, but for specific tasks, it should be easy to remember where they are.</li>
-                        <li>Finding related tasks may be tricky - due to the lack of clear hierarchy, there may be some
-                            issues with navigation or figuring out where things are.</li>
+                        <li>The most common accessibility issue is contrast: WebAIM WAVE detected 46 "Very low contrast
+                            errors". This is because the website often pairs light font colours (like a light orangish-red)
+                            with light background colours (like light grey), making it difficult to read parts of the page.
+                        </li>
+                        <li>There are also issues with empty headers or empty links. While there are invisible and may not
+                            impact an able user, this might be confusing for a user who requires a screen reader to navigate
+                            websites.</li>
+                        <li>Some of the empty links reduce usability for everyone: empty links like Twitter and Facebook
+                            should be visible</li>
+                        <li>There are many redundant link alerts where adjacent links go to the same URL. This may cause
+                            some minor confusion for able users and may be much worse for users requiring screen readers,
+                            which will repeat the same link many times.</li>
                     </ul>
                 </div>
             </Col>
@@ -131,27 +142,39 @@ export default function ResponsiveRedesign (props) {
                 </div>
             </Col>
             <Col>
-                <h4 className="montserrat">Accessibility</h4>
+                <h4 className="montserrat">Learnability</h4>
                 <div className="open-sans">
                     <ul className="list">
-                        <li>The most common accessibility issue is contrast: WebAIM WAVE detected 46 "Very low contrast
-                            errors". This is because the website often pairs light font colours (like a light orangish-red)
-                            with light background colours (like light grey), making it difficult to read parts of the page.
-                        </li>
-                        <li>There are also issues with empty headers or empty links. While there are invisible and may not
-                            impact an able user, this might be confusing for a user who requires a screen reader to navigate
-                            websites.</li>
-                        <li>Some of the empty links reduce usability for everyone: empty links like Twitter and Facebook
-                            should be visible</li>
-                        <li>There are many redundant link alerts where adjacent links go to the same URL. This may cause
-                            some minor confusion for able users and may be much worse for users requiring screen readers,
-                            which will repeat the same link many times.</li>
+                        <li>Some items may take a little time to get used to, like the carousel at the beginning</li>
+                        <li>Some commonly used items (like "Report a Problem") may not be in a location people expect due to
+                            their popularity, but for specific tasks, it should be easy to remember where they are.</li>
+                        <li>Finding related tasks may be tricky - due to the lack of clear hierarchy, there may be some
+                            issues with navigation or figuring out where things are.</li>
                     </ul>
                 </div>
             </Col>
         </Row>
+        <hr />
         <Row className="section">
             <h2 className="montserrat">Redesign</h2>
+            <div className="open-sans mb-3">
+                Redesigning the website involved several stages. The first was drafting low-fidelity protoypes for mobile, tablet and desktop. Once I had the lo-fi prototypes ready, I used them to create a visual design style guide to ensure consistency in design and execution. This was used to create he high-fidelity prototypes, which were subsequently used to make the website.
+                </div>
+            <h4 className="montserrat">Lo-fi Prototypes</h4>
+            <Col>
+                <h5 className="montserrat">Mobile</h5>
+                <Image className="zoom-hover" fluid src={lfm} />
+            </Col>
+            <Col>
+                <h5 className="montserrat">Tablet</h5>
+                <Image className="zoom-hover" fluid src={lft} />
+            </Col>
+            <Col>
+                <h5 className="montserrat">Desktop</h5>
+                <Image className="zoom-hover" fluid src={lfd} />
+            </Col>
+        </Row>
+        <Row className="section">
             <Col>
             <h4 className="montserrat">Visual design style guide</h4>
             <Image fluid src={vd} />
@@ -159,43 +182,41 @@ export default function ResponsiveRedesign (props) {
             <Col>
                 <h4 className="montserrat">Explanation</h4>
                 <div className="open-sans">
-                    Something about the visual design style guide
+                    The main factor considered was clarity and simplicity. Since this is a government website, a user would want to be able to find information quickly and easily, without having to wonder what different components on a page are for. The design is meant to be simple and easy to understand, with a clear visual hierarchy and a consistent design language.
+                </div>
+                <br />
+                <div className="open-sans">
+                    The main colours used are black and white. Buttons and links both use blue, which is common design language for websites. Additionally, the shade of blue used is the same as the colour in the Pawtucket logo for consistency. There are different designs for components that need to be responsive (such as the news box).
                 </div>
             </Col>
         </Row>
         <Row className="section">
-            <h2 className="montserrat">Lofi Prototypes</h2>
+            <h4 className="montserrat">Hifi Prototypes</h4>
             <Col>
-                <h4 className="montserrat">Mobile</h4>
-                <Image className="zoom-hover" fluid src={lfm} />
-            </Col>
-            <Col>
-                <h4 className="montserrat">Tablet</h4>
-                <Image className="zoom-hover" fluid src={lft} />
-            </Col>
-            <Col>
-                <h4 className="montserrat">Desktop</h4>
-                <Image className="zoom-hover" fluid src={lfd} />
-            </Col>
-        </Row>
-        <Row className="section">
-            <h2 className="montserrat">Hifi Prototypes</h2>
-            <Col>
-                <h4 className="montserrat">Mobile</h4>
+                <h5 className="montserrat">Mobile</h5>
                 <Image className="zoom-hover" fluid src={hfm} />
             </Col>
             <Col>
-                <h4 className="montserrat">Tablet</h4>
+                <h5 className="montserrat">Tablet</h5>
                 <Image className="zoom-hover" fluid src={hft} />
             </Col>
             <Col>
-                <h4 className="montserrat">Desktop</h4>
+                <h5 className="montserrat">Desktop</h5>
                 <Image className="zoom-hover" fluid src={hfd} />
             </Col>
         </Row>
+        <hr />
         <Row className="section">
             <Col>
                 <h2 className="montserrat">Redesigned Website</h2>
+                <div className="open-sans">
+                    <h6 className="montserrat text-muted mt-3 mb-0">Link</h6>
+                    <a href="https://cheesybug210.github.io/responsive-redesign-website">https://cheesybug210.github.io/responsive-redesign-website</a>
+
+                </div>
+                <div className="open-sans mt-3 mb-3">
+                    Here is the redesigned website! It was made using HTML and Bootstrap. The website is responsive, and the design is consistent across all devices. The issues outlined earlier in the Problems section have been addressed, and the website is now easier to use and more accessible. 
+                    </div>
                 <Carousel variant="dark">
                     <Carousel.Item>
                         <img src={n1} className="w-100" alt="..." />
@@ -207,11 +228,6 @@ export default function ResponsiveRedesign (props) {
                         <img src={n3} className="w-100" alt="..." />
                     </Carousel.Item>
                 </Carousel>
-                <div className="open-sans">
-                    <h6 className="montserrat text-muted mt-3 mb-0">Website</h6>
-                    <a href="https://cheesybug210.github.io/responsive-redesign-website">https://cheesybug210.github.io/responsive-redesign-website</a>
-
-                </div>
             </Col>
             </Row>
     </Container>;

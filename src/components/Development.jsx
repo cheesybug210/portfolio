@@ -24,6 +24,7 @@ export default function Development (props) {
                 The application is the online ordering page for a bakery. It allows the user to sort and filter by different criteria, add items to a cart, and see the total price for the items. This demonstrates my ability to create a dynamic website using React, JavaScript, and CSS.
             </div>
         </Row>
+        <hr />
 
         <Row className="section">
             <h2 className="montserrat">Website</h2>

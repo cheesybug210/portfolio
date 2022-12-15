@@ -27,6 +27,8 @@ export default function Personas (props) {
         This was an analysis of a public microwave in the Computer Science building at Brown University. The goal was to observe users interacting with the microwave and ask them questions designed to understand their overall experience and pain points. This resulted in the development of user personas representing the typical user and a storyboard representing a persona's interaction with the microwave.
       </div>
     </Row>
+
+    <hr />
     
     <Row className="section">
       <Col>
@@ -51,6 +53,7 @@ export default function Personas (props) {
           </div>
       </Col>
     </Row>
+    <hr />
     <Row className="section">
       <h2 className="montserrat">Observations</h2>
       <h6 className="montserrat text-muted">Objective observations of users interacting with the microwave</h6>
@@ -66,6 +69,7 @@ export default function Personas (props) {
         </ul>
         </div>
     </Row>
+    <hr />
     <Row className="section">
       <Col>
         <h2 className="montserrat">Questions</h2>
@@ -221,6 +225,7 @@ export default function Personas (props) {
         </div>
       </Col>
     </Row>
+    <hr />
     <Row className="section">
       <h2 className="montserrat">Personas</h2>
       <h6 className="montserrat text-muted">User personas developed by breaking down the trends in observations and interview answers</h6>
@@ -234,6 +239,7 @@ export default function Personas (props) {
         <Image fluid={true} src={traditionalTommy} />
       </Col>
     </Row>
+    <hr />
     <Row className="section">
       <h2 className="montserrat">Storyboard</h2>
       <h6 className="montserrat text-muted">A look at Traditional Tommy's experience using the microwave</h6>

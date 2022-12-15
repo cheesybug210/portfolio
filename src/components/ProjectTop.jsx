@@ -5,7 +5,6 @@ export default function ProjectTop (props) {
     return (
         <div>
             <div className="header-image" style={{ "backgroundImage": `url(${props.path})`, "backgroundPosition":`${props.bgPosition?.vertical ?? 50}% ${props.bgPosition?.horizontal ?? 50}%` }} />
-            <Container className="top-container">
                 <Row className="title-row montserrat">
                     <h1 className="project-title">
                         {props.title}
@@ -16,6 +15,8 @@ export default function ProjectTop (props) {
                     </h3>
 
                 </Row>
+
+                <hr />
 
                 <Row className="project-info-row">
                     {props.team &&
@@ -43,8 +44,9 @@ export default function ProjectTop (props) {
                         </Col>
                     }
                 </Row>
+
+                <hr />
                 
-            </Container>
         </div>
     );
 }

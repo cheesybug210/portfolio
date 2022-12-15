@@ -37,6 +37,8 @@ export default function IterativeDesign (props) {
             <div className="open-sans">Our goal was to prototype a website, from the ground up, for Pantore, a Brazilian food supply startup backed by Y-Combinator. This process involved initial sketching and wireframing, followed by development of a full-fledged interactive prototype. This prototype was critiqued by peers, modified based on feedback, and sent for user testing. Throughout the process, we kept in mind the users affected by the interface - a list likely to contain people looking to buy food in bulk (such as restaurant managers) and wholesalers looking to sell items in bulk.</div>
         </Row>
 
+        <hr />
+
         <Row className="section">
             <h2 className="montserrat">Initial Sketches</h2>
             <h4 className="open-sans text-muted">Four sets of sketches generated to explore different design ideas.</h4>
