@@ -26,18 +26,18 @@ export default function AboutPage() {
                         Hi! I'm cheesybug210, a senior studying Computer Science at Brown University. I have always been passionate about technology and have gained a fundamental understanding of computer science through my coursework. I am a collaborative and detail-oriented team member and have had the privilege of interning at ABC and XYZ in the past two summers, where I learnt a tremendous amount.
                     </p>
                     <p>
-                        I enjoy learning about new technologies and applying them to solve problems. I am passionate about creating user-friendly and intuitive applications.
+                        Most of my coursework in college involved learning about computer science and programming without really thinking about how users would interact with the product. Having now taken a UI/UX / design class, I realised that I was missing a crucial piece of the puzzle. I am now interested in learning more about the design process and how to create user-friendly and intuitive applications.
                     </p>
                     <div className="social-media">
                         <a href="https://www.eelslap.com/">
-                            <FontAwesomeIcon icon={faLinkedin} size="xl" color="black" />
+                            <FontAwesomeIcon icon={faLinkedin} size="xl" color="#2258a4" />
                         </a>
                         <a href="https://github.com/cheesybug210">
-                            <FontAwesomeIcon icon={faGithub} size="xl" color="black" />
+                            <FontAwesomeIcon icon={faGithub} size="xl" color="#2258a4" />
 
                         </a>
                         <a href="https://www.docdroid.net/WyjIuyO/fake-resume-pdf">
-                            <FontAwesomeIcon icon={faFileAlt} size="xl" color="black" />
+                            <FontAwesomeIcon icon={faFileAlt} size="xl" color="#2258a4" />
                         </a>
                     </div>
                 </Col>

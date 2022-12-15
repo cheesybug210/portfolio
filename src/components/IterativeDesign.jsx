@@ -114,6 +114,7 @@ export default function IterativeDesign (props) {
                 </Carousel>
             </Col>
         </Row>
+        <hr />
         <Row className="section">
             <h2 className="montserrat">Wireframing and Lofi Prototype</h2>
             <Col sm={5}>
@@ -130,6 +131,7 @@ export default function IterativeDesign (props) {
                 </Ratio>
             </Col>
         </Row>
+        <hr />
         <Row className="section">
             <h2 className="montserrat">Hifi Prototype</h2>
             <Col sm={5}>
@@ -155,7 +157,7 @@ export default function IterativeDesign (props) {
                 </Ratio>
             </Col>
         </Row>
-        {/* split into two? */}
+        <hr />
         <Row className="section">
             <h2 className="montserrat">Critique Feedback</h2>
             <div className="open-sans">
@@ -171,7 +173,7 @@ export default function IterativeDesign (props) {
                 </ol>
             </div>
         </Row>
-
+        <hr />
         <Row className="section">
             <h2 className="montserrat">User Testing Videos</h2>
             {/* <h4 className="montserrat text-muted">Videos of user interaction with the prototype</h4> */}
@@ -224,6 +226,7 @@ export default function IterativeDesign (props) {
                 </Ratio>
             </Col>
         </Row>
+        <hr />
         <Row className="section">
             <h2 className="montserrat">Potential Changes</h2>
             <h4 className="montserrat text-muted">The final design of the website</h4>
