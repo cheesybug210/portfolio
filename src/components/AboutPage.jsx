@@ -13,13 +13,12 @@ export default function AboutPage() {
         <Container className="about-page">
             <Row>
                 <Col className="about-page-image">
-                    <Image className="about-page-image" src={cheesyBug} />
-                    {/* <img src="../assets/images/apple-pie.jpg" alt="Image created with a mobile phone" />  */}
+                    <Image fluid className="about-page-image" src={cheesyBug} />
                 </Col>
-                <Col className="about-page-content">
-                    <h1>About Me</h1>
+                <Col className="about-page-content open-sans">
+                    <h1 className="montserrat">About Me</h1>
                     <p>
-                        I am a software developer with a background in mechanical engineering. I have experience in web development, mobile development, and desktop development. I have worked with a variety of technologies including C#, Java, JavaScript, React, React Native, and Electron.
+                        Hi! I'm cheesybug210, a senior studying Computer Science at Brown University. I have always been passionate about technology and have gained a fundamental understanding of computer science through my coursework. I am a collaborative and detail-oriented team member and have had the privilege of interning at ABC and XYZ in the past two summers, where I learnt a tremendous amount.
                     </p>
                     <p>
                         I enjoy learning about new technologies and applying them to solve problems. I am passionate about creating user-friendly and intuitive applications.

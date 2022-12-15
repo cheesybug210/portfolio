@@ -1,30 +1,30 @@
-[
-  {
-    "caption": "Personas",
+{
+  "personas": {
+    "caption": "Personas and Storyboarding",
     "description": "Description of Personas",
     "image": "images/cookies.jpg",
     "longDescription": "More than just four classic chocolate chip cookies",
     "path": "personas"
   },
-  {
+  "redesign": {
     "caption": "Responsive Redesign",
     "description": "Description of Responsive Redesign",
     "image": "images/cannoli.jpg",
     "longDescription": "More than just four classic chocolate chip cookies",
     "path": "responsive-redesign"
   },
-  {
+  "iterative": {
     "caption": "Iterative Design",
     "description": "Description of Iterative Design",
     "image": "images/apple-pie.jpg",
     "longDescription": "More than just four classic chocolate chip cookies",
     "path": "iterative-design"
   },
-  {
+  "development": {
     "caption": "Development",
     "description": "A slice of pecan-flavoured custard pie, topped with meringue ",
     "image": "images/custard-pie.jpg",
     "longDescription": "More than just four classic chocolate chip cookies",
     "path": "development"
   }
-]
+}

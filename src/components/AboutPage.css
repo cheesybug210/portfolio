@@ -5,7 +5,9 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+    text-align: left;
+    line-height: 1.75rem;
 }
 
 .about-page-image {

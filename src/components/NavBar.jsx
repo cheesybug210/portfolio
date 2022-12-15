@@ -13,7 +13,7 @@ export default function NavBar () {
     return (
         <Navbar className="navbar-custom" expand="lg" sticky="top">
             <Container>
-                <Navbar.Brand as={Link} to="/portfolio">Firstname Lastname</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/portfolio">cheesybug210</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                     <Nav>
