@@ -44,9 +44,7 @@ export default function ProjectTop (props) {
                         </Col>
                     }
                 </Row>
-
                 <hr />
-                
         </div>
     );
 }

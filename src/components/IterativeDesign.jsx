@@ -175,8 +175,8 @@ export default function IterativeDesign (props) {
         </Row>
         <hr />
         <Row className="section">
-            <h2 className="montserrat">User Testing Videos</h2>
-            {/* <h4 className="montserrat text-muted">Videos of user interaction with the prototype</h4> */}
+            <h2 className="montserrat">User Testing</h2>
+            <h6 className="montserrat text-muted">Results and feedback from the user testing conducted</h6>
             <Col sm={5}>
                 <div className="open-sans">
                     We conducted user testing with 3 users, each of whom had never previously seen the prototype. We asked them to perform a series of tasks, and then asked them to give us feedback on the website. We also asked them to think aloud as they performed the tasks, so that we could see how they were thinking about the website.

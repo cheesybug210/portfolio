@@ -1,6 +1,5 @@
 import storyboard from "../assets/images/personas/storyboard.jpg";
 import microwaveSketch from "../assets/images/personas/microwave-sketch.jpg";
-// import microwaveUnannotated from "../assets/images/personas/microwave-not-annotated.jpg";
 import busyBathilda from "../assets/images/personas/busy-bathilda.jpg";
 import traditionalTommy from "../assets/images/personas/traditional-tommy.jpg";
 import ProjectTop from "./ProjectTop";
@@ -229,7 +228,6 @@ export default function Personas (props) {
     <Row className="section">
       <h2 className="montserrat">Personas</h2>
       <h6 className="montserrat text-muted">User personas developed by breaking down the trends in observations and interview answers</h6>
-      {/* <div className="open-sans">Wah</div> */}
       <Col className="open-sans">
         <h5 className="montserrat">Busy Bathilda</h5>
         <Image src={busyBathilda} />
