@@ -245,5 +245,18 @@ export default function IterativeDesign (props) {
                 </ul>
             </div>
         </Row>
+        <hr />
+        <Row className="section">
+            <h2 className="montserrat">Conclusion</h2>
+            <h5 className="montserrat">Project conclusions</h5>
+            <div className="open-sans mb-3">
+                We received excellent feedback from our peer reviewers and user testers, though there were some issues involved with testing an interactive prototype rather than an actual website. Specific problems and potential solutions have been listed in previous sections. Overall, users were able to achieve the tasks set out for them and the design was able to successfully fulfill the needs of the users.
+                
+            </div>
+            <h5 className="montserrat">Personal takeaways</h5>
+            <div className="open-sans">
+                Through this project, we were able to learn a great amount about the entire design process, from ideating to prototyping to iterating on peer feedback and conducting user testing. We were able to develop our skills as designers and as a team. We learned a great deal about the design process, and we were able to develop our skills in prototyping and user testing. In addition, we learned a great deal about the importance of collaboration and teamwork, as we were able to work together as a team throughout the entire design process.
+            </div>
+        </Row>
     </Container>;
 }

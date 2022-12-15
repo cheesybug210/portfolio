@@ -245,6 +245,18 @@ export default function Personas (props) {
       <h6 className="montserrat text-muted">A look at Traditional Tommy's experience using the microwave</h6>
       <Image fluid={true} src={storyboard} />
     </Row>
+    <hr />
+    <Row className="section">
+      <h2 className="montserrat">Conclusion</h2>
+      <h5 className="montserrat">Project conclusions</h5>
+      <div className="open-sans mb-3">
+        After researching and conducting interviews, I found that essentially everyone was able to use the microwave to achieve what they were aiming for - usually reheating food or beverage. However, the process of doing so was not always straightforward, and there were several components of the microwave which were frustrating to use. The most common reason for this was the sheer number of buttons and the confusing preset options. The microwave was also not always intuitive to use, and users would sometimes have to look up whether something could be heated in the microwave or not. Having concise guidelines on the microwave would help reduce the time required for this step.
+      </div>
+      <h5 className="montserrat">Personal takeaways</h5>
+      <div className="open-sans">
+        This was a project that allowed me to learn more about the design process, and I was able to gain a better understanding of how to conduct user research and interviews. I also learned more about the importance of user personas and storyboards, and how they can be used to guide the design process.
+      </div>
+    </Row>
   </Container>
 
 }

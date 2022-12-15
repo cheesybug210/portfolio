@@ -48,5 +48,17 @@ export default function Development (props) {
                 <Image className="mt-5" fluid src={d2} />
             </Col>
         </Row>
+        <hr />
+        <Row className="section">
+            <h2 className="montserrat">Conclusion</h2>
+            <h5 className="montserrat">Project conclusions</h5>
+            <div className="open-sans mb-3">
+                I was able to make the reactive bakery website successfully, which demonstrates my ability to create a dynamic website using React, JavaScript, and CSS while utilising principles of usability learnt in school and from other websites.
+            </div>
+            <h5 className="montserrat">Personal takeaways</h5>
+            <div className="open-sans">
+                I was already familiar with React, but having not touched it in a while, this project was excellent practice. I also gained experience using JavaScript and external frameworks like Material UI.
+            </div>
+        </Row>
     </Container>;
 }

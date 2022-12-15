@@ -229,7 +229,20 @@ export default function ResponsiveRedesign (props) {
                     </Carousel.Item>
                 </Carousel>
             </Col>
-            </Row>
+        </Row>
+        <hr />
+        <Row className="section">
+            <h2 className="montserrat">Conclusion</h2>
+            <h5 className="montserrat">Project conclusions</h5>
+            <div className="open-sans mb-3">
+                Analysing the website revealed several issues that could be addressed. The redesign was made with these issues in mind, and the website was made responsive and more accessible. The website is now easier to use, and the design is consistent across all devices.
+                
+            </div>
+            <h5 className="montserrat">Personal takeaways</h5>
+            <div className="open-sans">
+            I learned a lot about responsive design and how to make a website more accessible. I also learned how to use Figma and Bootstrap, tools for prototyping and designing, and creating websites. I also have a greater understanding of how to analyse a website and identify issues that need to be addressed and how to go through the various stages of the design process, including prototyping and creating a visual design style guide.
+            </div>
+        </Row>
     </Container>;
 }
 
